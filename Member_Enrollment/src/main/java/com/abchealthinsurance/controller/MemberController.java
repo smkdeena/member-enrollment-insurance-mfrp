@@ -35,7 +35,7 @@ public class MemberController {
 		return "reg";
 	}
 
-	@RequestMapping(value = "/SelectPlan", method = RequestMethod.POST)
+	@RequestMapping(value = "/SelPlan", method = RequestMethod.POST)
 	public String register(@RequestParam("state") String state, @ModelAttribute("mem") Members mem, ModelMap modelMap) {
 		modelMap.addAttribute("mem", mem);
 		List<Plan> plan = planRepo.findPlan(state);
