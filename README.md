@@ -1,3 +1,3 @@
 # member-enrollment-insurance-mfrp
 My First Spring Boot Application
-<img src="src/main/webapp/images/done.png">
+<img src="Member_Enrollment/src/main/webapp/images/done.png">
